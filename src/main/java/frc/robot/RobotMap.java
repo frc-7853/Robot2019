@@ -17,6 +17,9 @@ public class RobotMap {
   // For example to map the left and right motors, you could define the
   // following variables to use with your drivetrain subsystem.
  
+  // Drive
+  public static double maxTurnSpeed = 0.75;
+  
   // Motor Ports
   public static int leftMotorPortTop = 0; //before 2
   public static int leftMotorPortBottom = 1;//before 3
