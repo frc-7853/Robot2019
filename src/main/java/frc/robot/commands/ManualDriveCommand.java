@@ -25,7 +25,7 @@ public class ManualDriveCommand extends Command {
   @Override
   protected void execute() {
     double move = -Robot.oi.stick.getY();
-    double turn = Robot.oi.stick.getX();
+    double turn = Robot.oi.stick.getZ();
     Robot.driveSubsystem.manualDrive(move, turn);
 
 

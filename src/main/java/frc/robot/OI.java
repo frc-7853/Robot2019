@@ -33,7 +33,6 @@ public class OI {
   Button hatchIntake = new JoystickButton(stick, RobotMap.sReverseButton);
   Button hatchRelease = new JoystickButton(stick, RobotMap.sForwardButton);
   Button motorOff = new JoystickButton(stick, RobotMap.motorOffButton);
-
   public OI() {
     motorOff.whenPressed(new MotorOff());
     // hatchIntake = button 12
